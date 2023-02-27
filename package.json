@@ -5,9 +5,11 @@
     "main": "src/layer1-app/index.tsx",
     "scripts": {
         "start": "expo start",
+
         "android": "expo start --android",
         "ios": "expo start --ios",
         "web": "expo start --web",
+
         "test": "jest --watchAll",
         "lint": "eslint \"**/*.{ts,tsx,json}\" --ignore-pattern node_modules/ --fix"
     },
